@@ -1,0 +1,4 @@
+Electronics,Smartphone,699.99
+Clothing,T-Shirt,19.99
+Electronics,Laptop,999.99
+Clothing,Jeans,49.99
