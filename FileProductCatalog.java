@@ -20,10 +20,16 @@ public class FileProductCatalog implements ProductCatalog {
             String line;
             while ((line = br.readLine()) != null) {
                 String[] parts = line.split(",");
-                String type = parts[0];
-                String name = parts[1];
-                double price = Double.parseDouble(parts[2]);
-                products.add(ProductFactory.createProduct(type, name, price));
+                if (parts.length == 3) {
+                    String type = parts[0];
+                    String name = parts[1];
+                    double price = Double.parseDouble(parts[2]);
+                    Product product = ProductFactory.createProduct(type, name, price);
+                    products.add(product);
+                    System.out.println("Loaded product: " + product.getName() + " - $" + product.getPrice());
+                } else {
+                    System.out.println("Skipping invalid line: " + line);
+                }
             }
         } catch (IOException e) {
             e.printStackTrace();
