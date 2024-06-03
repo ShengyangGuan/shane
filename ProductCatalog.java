@@ -1,7 +1,7 @@
 import java.util.List;
 
 public interface ProductCatalog {
-    void addProduct(Product product);
-    List<Product> getProducts();
+    List<Product> getAllProducts();
     Product getProductByName(String name);
+    void addProduct(Product product, String sku); 
 }
